@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+.contact ul, .navbar ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin: auto;
+	width: 1174px;
+}
+.contact ul li, .navbar ul li{
+	padding: 12px;
+}
+.contact ul li:nth-child(3){
+	margin-right: auto;
+}
+i{
+	color: #0060FE;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+select{
+	border: 0;
+	background-color: transparent;
+}
+select:focus{
+	border: 0;
+	box-shadow: 0;
+	outline: 0;
+	border-bottom: 2px solid #0060FE;
+}
+
+
+.navbar ul li:first-child{
+	margin-right: auto;
+}
+a{
+	text-decoration: none;
+	font-weight: 700;
+}
+.navbar ul li button{
+	padding: 12px;
+	border-radius: 50px;
+	border: 0;
+	background-color: #0060FE;
+	color: white;
+	transition: all .4s ease;
+}
+.navbar ul li button i{
+	color: white;
+	padding: 5px;
+}
+.navbar ul li button:hover{
+	color: #0060FE;
+	background-color: transparent;
+	border: 2px solid #0060FE;
+}
+#home{
+	background-image: url(https://online-mahalla.uz/media/store/img/online-mahlla-main.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+	width: 100%;
+}
+#home .rgba{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 90, 0.5);	
+}
+#home .rgba .container{
+	color: white;
+	margin-left: 150px;
+	padding-top: 20px;
+}
+#home .rgba .container h1{
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	width: 600px;
+}
+#home .rgba .container p{
+	width: 600px;
+	font-weight: 510;
+}
+#home .rgba .container .parent{
+	display: flex;
+}
+#home .rgba .container .parent .child{
+	padding: 20px 0;
+	width: 250px;
+	text-align: center;
+	margin: 12px;
+	background-color: #0060FE;
+	border-radius: 12px;
+	transition: all .4s ease;
+}
+#home .rgba .container .parent .child:hover{
+	background-color: white;
+	color: #0060FE;
+}
+
+
+
+#about .container h1{
+	font-size: 45px;
+	text-align: center;
+	padding-top: 50px;
+}
+#about .container .parent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#about .container .parent .child{
+	height: 40vh;
+	width: 650px;
+	display: flex;
+	align-items: center ;
+	margin: 10px;
+	transition: all .5s ease;
+}
+#about .container .parent .child:hover{
+	box-shadow: 0px 0px 30px gray;
+}
+#about .container .parent .child .img img{
+	margin: 20px;
+	width: 100px;
+}
+
+#about .container .parent .child .write h4{
+	font-size: 27px;
+}
+#about .container .parent .child .write p{
+	width: 350px;
+}
+#about .container .parent .child .write button{
+	border: 0;
+	background-color: transparent;
+	font-size: 17px;
+}
+#about .container .parent .child .write button i:hover{
+	transform: translateX(30px);
+}
+
+
+
+#photo .container h1{
+	font-size: 45px;
+	text-align: center;
+	padding-top: 50px;
+}
+#photo .container p{
+	text-align: center;
+}
+#photo .container .parent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#photo .container .parent .child .photo .photo_1 img{
+	height: 350px;
+	width: 520px;
+	margin: 10px;
+}
+#photo .container .parent .child .photo .photo_parent{
+	display: flex;
+	align-items: center;
+}
+#photo .container .parent .child .photo_parent .photo_2 img,
+#photo .container .parent .child .photo_parent .photo_3 img{
+	height: 166px;
+	width: 250px;
+	margin: 10px;
+}
+#photo .container button{
+	background-color: #0060FE;
+	color: white;
+	margin-left: 650px;
+	padding: 20px 40px;
+	border: 0;
+	border-radius: 20px;
+}
